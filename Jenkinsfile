@@ -1,12 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        script {
-          lvBuild(lvProjectPath, "My Computer", lvBuildSpecName, lvVersion, lvBitness)
-        }
-
+        echo 'hghvgfjg'
       }
     }
 
